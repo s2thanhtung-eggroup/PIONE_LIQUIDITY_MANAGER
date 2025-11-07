@@ -65,9 +65,6 @@ module.exports = {
   },
   etherscan: {
     apiKey: EXPLORER_API_KEY,
-    // apiKey: {
-    //   pioneZero : EXPLORER_API_KEY
-    // },
     customChains: [
       {
         network: "pione",

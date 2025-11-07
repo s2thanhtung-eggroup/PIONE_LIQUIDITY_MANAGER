@@ -1,13 +1,12 @@
 {
-  "name": "bep20-pionechain",
+  "name": "PIONE-LIQUIDITY-MANAGER",
   "version": "1.0.0",
-  "description": "build bep20 pione token on bnb smart chain",
+  "description": "A smart contract system for managing cross-chain liquidity provision between PioneChain and BNB Smart Chain (BSC)",
   "main": "index.js",
   "scripts": {
     "test": "hardhat test",
     "deploy:bsc": "npx hardhat ignition deploy ./ignition/modules/PioneLiquidityManager.js --network bsc --verify",
-    "deploy:bscTestnet": "npx hardhat ignition deploy ./ignition/modules/PioneLiquidityManager.js --network bscTestnet --verify",
-    "deploy:localhost": "npx hardhat ignition deploy ./ignition/modules/PioneLiquidityManager.js --network localhost"
+    "deploy:bscTestnet": "npx hardhat ignition deploy ./ignition/modules/PioneLiquidityManager.js --network bscTestnet --verify"
   },
   "keywords": [
     "PIONECHAIN",
